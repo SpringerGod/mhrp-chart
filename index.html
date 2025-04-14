@@ -27,7 +27,7 @@
     }
 
     .scroll-frame::-webkit-scrollbar {
-      width: 24px; /* Wider scrollbar */
+      width: 24px; /* Wider scrollbar for desktop */
     }
 
     .scroll-frame::-webkit-scrollbar-track {
@@ -59,9 +59,9 @@
 
     .mhrp-chart {
       border-collapse: collapse;
-      width: 100%;
+      width: 100%;  /* Ensure the table stretches across the full width */
       font-size: 15px;
-      table-layout: fixed;
+      table-layout: auto; /* Auto layout to stretch table */
       position: relative;
       overflow: visible;
     }
